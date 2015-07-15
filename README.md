@@ -1,4 +1,4 @@
-# toogle-css-bookmarklet
+# toggle-css-bookmarklet
 
 ### Put inside your bookmarks
 
