@@ -1,5 +1,8 @@
 # Toggle css bookmarklet
 
+- Toogle css styles on your page easily with this bookmarklet
+- Works on every sane browser
+
 #### Put inside your bookmarks
 
 ```js
