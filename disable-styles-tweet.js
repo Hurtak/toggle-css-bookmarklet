@@ -1,3 +1,2 @@
-[].slice.call($('link, style, [style]')).forEach(function(el) {
-    el.style.cssText ? el.style.cssText = '' : el.outerHTML = '';
-});
+x = document.querySelectorAll('link, style, [style]'), i = x.length;
+while (i--) a=x[i], a.style[b = 'cssText'] ? a.style[b] = '' : a.outerHTML = ''
