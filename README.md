@@ -6,7 +6,7 @@
 #### Put inside your bookmarks
 
 ```js
-javascript:var b=document.body,c=b.hasAttribute("data-css-disabled");c?b.removeAttribute("data-css-disabled"):b.setAttribute("data-css-disabled","");if(c)d=document.querySelectorAll("[data-css-storage]"),[].slice.call(d).forEach(function(a){"STYLE"===a.tagName?a.innerHTML=f(a):"LINK"===a.tagName?a.disabled=!1:a.style.cssText=f(a)});else{var d=document.querySelectorAll("[style], link, style");[].slice.call(d).forEach(function(a){"STYLE"===a.tagName?(g(a,a.innerHTML),a.innerHTML=""):"LINK"===a.tagName?(g(a,""),a.disabled=!0):(g(a,a.style.cssText),a.style.cssText="")})}function g(a,e){a.setAttribute("data-css-storage",e)}function f(a){var e=a.getAttribute("data-css-storage");a.removeAttribute("data-css-storage");return e};
+javascript:(function(){function d(a,b){a.setAttribute("data-css-storage",b)}function e(a){var b=a.getAttribute("data-css-storage");a.removeAttribute("data-css-storage");return b}var c=[];(function(){var a=document.body,b=a.hasAttribute("data-css-disabled");b?a.removeAttribute("data-css-disabled"):a.setAttribute("data-css-disabled","");return b})()?(c=document.querySelectorAll("[data-css-storage]"),[].slice.call(c).forEach(function(a){"STYLE"===a.tagName?a.innerHTML=e(a):"LINK"===a.tagName?a.disabled=!1:a.style.cssText=e(a)})):(c=document.querySelectorAll("[style], link, style"),[].slice.call(c).forEach(function(a){"STYLE"===a.tagName?(d(a,a.innerHTML),a.innerHTML=""):"LINK"===a.tagName?(d(a,""),a.disabled=!0):(d(a,a.style.cssText),a.style.cssText="")}))})();
 ```
 
 #### Tweet sized bookmarklet (only disables styles)
