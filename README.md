@@ -3,7 +3,7 @@
 - Toogle css styles on your page easily with this bookmarklet
 - Works on every sane browser
 
-![Image how toggle-css-bookmarklet works](http://i.imgur.com/4NISaou.gifv)
+![Image how toggle-css-bookmarklet works](http://i.imgur.com/4NISaou.gif)
 
 #### Put inside your bookmarks
 
