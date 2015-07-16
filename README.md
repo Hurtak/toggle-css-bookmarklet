@@ -3,6 +3,8 @@
 - Toogle css styles on your page easily with this bookmarklet
 - Works on every sane browser
 
+![Image how toggle-css-bookmarklet works](http://i.imgur.com/4NISaou.gifv)
+
 #### Put inside your bookmarks
 
 ```js
