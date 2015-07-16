@@ -1,8 +1,5 @@
 # Toggle css bookmarklet
 
-- Toogle css styles on your page easily with this bookmarklet
-- Works on every sane browser
-
 ![Gif how toggle-css-bookmarklet works](http://i.imgur.com/lIVMtwK.gif)
 
 <br>
@@ -17,7 +14,6 @@ javascript:(function(){function d(a,b){a.setAttribute("data-css-storage",b)}func
 
 #### Tweet sized `ES6` bookmarklet (only disables styles)
 - `134` characters
-- `0` global variables
 
 ```js
 javascript:Array.from(document.querySelectorAll('link,style,[style]')).forEach(e=>{e.style.cssText?e.style.cssText='':e.outerHTML=''})
@@ -27,7 +23,6 @@ javascript:Array.from(document.querySelectorAll('link,style,[style]')).forEach(e
 
 #### Tweet sized `ES5` bookmarklet (only disables styles)
 - `137` characters
-- `3` global variables
 
 ```js
 javascript:x=document.querySelectorAll('link,style,[style]');for(i=x.length;i--;)a=x[i],a.style.cssText?a.style.cssText='':a.outerHTML=''
