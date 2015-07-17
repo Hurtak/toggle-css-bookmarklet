@@ -21,8 +21,8 @@ javascript:x=document.querySelectorAll('link,style,[style]');for(i=x.length;i--;
 <br>
 
 ##### Tweet sized `ES6` bookmarklet (only disables styles)
-- `134` characters
+- `121` characters
 
 ```js
-javascript:Array.from(document.querySelectorAll('link,style,[style]')).forEach(e=>{e.style.cssText?e.style.cssText='':e.outerHTML=''})
+javascript:for(let e of document.querySelectorAll('link,style,[style]'))e.style.cssText?e.style.cssText='':e.outerHTML=''
 ```
