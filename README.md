@@ -11,16 +11,8 @@ full source code: https://github.com/Hurtak/toggle-css-bookmarklet/blob/master/t
 
 <br>
 
-##### Tweet sized `ES5` bookmarklet (only disables styles)
-- `137` characters
 
-```js
-javascript:x=document.querySelectorAll('link,style,[style]');for(i=x.length;i--;)e=x[i],e.style.cssText?e.style.cssText='':e.outerHTML=''
-```
-
-<br>
-
-##### Tweet sized `ES6` bookmarklet (only disables styles)
+##### Tweet sized bookmarklet (only disables styles)
 - `121` characters
 
 ```js
